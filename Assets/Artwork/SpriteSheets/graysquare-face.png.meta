@@ -1,0 +1,321 @@
+fileFormatVersion: 2
+guid: 758c0d2e1d20a7445ab5ad4dfd7cf0a0
+timeCreated: 1453591106
+licenseType: Free
+TextureImporter:
+  fileIDToRecycleName:
+    21300000: graysquare-face_0
+    21300002: graysquare-face_1
+    21300004: graysquare-face_2
+    21300006: graysquare-face_3
+    21300008: graysquare-face_4
+    21300010: graysquare-face_5
+    21300012: graysquare-face_6
+    21300014: graysquare-face_7
+    21300016: graysquare-face_8
+    21300018: graysquare-face_9
+    21300020: graysquare-face_10
+    21300022: graysquare-face_11
+    21300024: graysquare-face_12
+    21300026: graysquare-face_13
+    21300028: graysquare-face_14
+    21300030: graysquare-face_15
+    21300032: graysquare-face_16
+    21300034: graysquare-face_17
+    21300036: graysquare-face_18
+    21300038: graysquare-face_19
+    21300040: graysquare-face_20
+    21300042: graysquare-face_21
+  serializedVersion: 2
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 1
+    linearTexture: 0
+    correctGamma: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 0
+  cubemapConvolution: 0
+  cubemapConvolutionSteps: 7
+  cubemapConvolutionExponent: 1.5
+  seamlessCubemap: 0
+  textureFormat: -3
+  maxTextureSize: 2048
+  textureSettings:
+    filterMode: 0
+    aniso: 16
+    mipBias: -1
+    wrapMode: 1
+  nPOTScale: 0
+  lightmap: 0
+  rGBM: 0
+  compressionQuality: 50
+  allowsAlphaSplitting: 0
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spritePixelsToUnits: 1
+  alphaIsTransparency: 1
+  textureType: 8
+  buildTargetSettings: []
+  spriteSheet:
+    sprites:
+    - name: graysquare-face_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 134
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: graysquare-face_1
+      rect:
+        serializedVersion: 2
+        x: 20
+        y: 134
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: graysquare-face_2
+      rect:
+        serializedVersion: 2
+        x: 40
+        y: 134
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: graysquare-face_3
+      rect:
+        serializedVersion: 2
+        x: 60
+        y: 134
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: graysquare-face_4
+      rect:
+        serializedVersion: 2
+        x: 80
+        y: 134
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: graysquare-face_5
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 114
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: graysquare-face_6
+      rect:
+        serializedVersion: 2
+        x: 20
+        y: 114
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: graysquare-face_7
+      rect:
+        serializedVersion: 2
+        x: 40
+        y: 114
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: graysquare-face_8
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 94
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: graysquare-face_9
+      rect:
+        serializedVersion: 2
+        x: 20
+        y: 94
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: graysquare-face_10
+      rect:
+        serializedVersion: 2
+        x: 40
+        y: 94
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: graysquare-face_11
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 74
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: graysquare-face_12
+      rect:
+        serializedVersion: 2
+        x: 20
+        y: 74
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: graysquare-face_13
+      rect:
+        serializedVersion: 2
+        x: 40
+        y: 74
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: graysquare-face_14
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 54
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: graysquare-face_15
+      rect:
+        serializedVersion: 2
+        x: 20
+        y: 54
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: graysquare-face_16
+      rect:
+        serializedVersion: 2
+        x: 40
+        y: 54
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: graysquare-face_17
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 34
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: graysquare-face_18
+      rect:
+        serializedVersion: 2
+        x: 20
+        y: 34
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: graysquare-face_19
+      rect:
+        serializedVersion: 2
+        x: 40
+        y: 34
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: graysquare-face_20
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 14
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: graysquare-face_21
+      rect:
+        serializedVersion: 2
+        x: 20
+        y: 14
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    outline: []
+  spritePackingTag: 
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
