@@ -16,6 +16,10 @@ public class PlayerMovement : MonoBehaviour {
 	public bool facingRight;
 	public bool jumping;
 
+	private float jump_start; // for short hop
+	private bool holding_jump; // also for short hop
+	public float full_jump_time = 1;
+
 	private Rigidbody2D body2d;
 
 	// Use this for initialization
@@ -33,6 +37,17 @@ public class PlayerMovement : MonoBehaviour {
 		if (jump) {
 			body2d.velocity = body2d.velocity + Vector2.up * jumpStrength;
 			jumping = true;
+			holding_jump = true;
+			jump_start = Time.time;
+		}
+
+		// Keep a constant upward velocity as long as jump is held and for a max time
+		if (holding_jump) {
+			if (Input.GetKey (KeyCode.Space) && Time.time - jump_start < full_jump_time) {
+				body2d.velocity = Vector2.right * body2d.velocity.x + Vector2.up * jumpStrength;
+			} else {
+				holding_jump = false;
+			}
 		}
 
 		// Move left/right
@@ -75,8 +90,10 @@ public class PlayerMovement : MonoBehaviour {
 	}
 
 	// Collision with ground, set jumping to false
-	void OnCollisionEnter2D(Collision2D col) {
-		if (col.gameObject.tag == "Ground") {
+	void OnCollisionStay2D(Collision2D col) {
+		ContactPoint2D contact = col.contacts[0];
+		// Land if you're on top of it and its the ground
+		if (col.gameObject.tag == "Ground" && contact.normal.y > 0 ) {
 			ground = true;
 			jumping = false;
 		}
